@@ -1,0 +1,22 @@
+.OwnerShip {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.483), rgba(0, 0, 0, 0.517)),
+    url("/src/component/WorkCall/img/hero-bg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  img {
+    width: 15vw;
+  }
+  h3 {
+    font-size: 4vw;
+  }
+  p {
+    font-size: 3.5vw;
+  }
+  .Pagination {
+    background-color: aquamarine;
+  }
+  .dd {
+    background-color: brown;
+  }
+}

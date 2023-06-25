@@ -1,0 +1,35 @@
+.Form {
+  .right {
+    h3 {
+      font-size: 3vw;
+    }
+    p {
+      font-size: 2vw;
+    }
+    .icon {
+      font-size: 5vw;
+    }
+  }
+  .left {
+    textarea {
+      resize: none;
+      height: auto;
+    }
+    button {
+      background-color: goldenrod;
+      font-size: 2vw;
+      &:hover {
+        background-color: rgba(218, 165, 32, 0.49);
+      }
+    }
+    input,
+    textarea {
+      background-color: rgb(211, 211, 211);
+
+      font-size: 2vw;
+      &:focus {
+        background-color: rgb(223, 222, 218);
+      }
+    }
+  }
+}

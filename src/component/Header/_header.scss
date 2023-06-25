@@ -1,0 +1,11 @@
+@import "Navbar/_Navbar";
+@import "Content/_Content";
+@import "Items/_Items";
+.Header {
+  height: 100%;
+  padding: 10.5vw;
+  background: linear-gradient(rgba(0, 0, 0, 0.421), rgba(0, 0, 0, 0.276)),
+    url("/src/component/Header/img/hero-bg.jpg");
+  background-size: cover;
+  color: white;
+}

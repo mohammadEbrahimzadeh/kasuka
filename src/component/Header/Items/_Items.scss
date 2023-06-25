@@ -1,0 +1,15 @@
+.Items {
+  border: 2px solid rgba(95, 92, 92, 0.455);
+  padding: 1vw;
+  &:hover {
+    background-color: goldenrod;
+    transition: 0.5s;
+  }
+  .AssignmentTurnedInIcon {
+    font-size: 5vw;
+  }
+  h5 {
+    font-size: 3vw;
+    color: white;
+  }
+}

@@ -1,0 +1,86 @@
+.WorkSamples {
+  h2 {
+    font-size: 4vw;
+  }
+  ul {
+    border: 2px solid rgba(128, 128, 128, 0.476);
+    li {
+      font-size: 3.5vw;
+
+      &:nth-child(1) {
+        background-color: goldenrod;
+      }
+      &:hover {
+        background-color: goldenrod;
+      }
+    }
+  }
+  .gallery {
+    display: grid;
+
+    grid-template-columns: repeat(3, minmax(2vw, 1fr));
+    grid-template-rows: repeat(auto-fill, minmax(5vw, 1fr));
+    grid-auto-rows: 4vw;
+    gap: 3vw;
+    grid-template-areas:
+      " gridItem1  gridItem5 gridItem8"
+      " gridItem1  gridItem5 gridItem8"
+      " gridItem2  gridItem5 gridItem8"
+      " gridItem2  gridItem6 gridItem8 "
+      " gridItem2  gridItem6 gridItem8 "
+      " gridItem3  gridItem6 gridItem8"
+      " gridItem3  gridItem6 gridItem9 "
+      " gridItem3  gridItem6 gridItem9      "
+      " gridItem4  gridItem6 gridItem9      "
+      " gridItem4  gridItem7 gridItem9   "
+      " gridItem4  gridItem7 gridItem9   "
+      " ...        gridItem7   ...   ";
+
+    grid-auto-flow: row;
+    .gridItem1 {
+      grid-area: gridItem1;
+    }
+    .gridItem2 {
+      grid-area: gridItem2;
+    }
+    .gridItem3 {
+      grid-area: gridItem3;
+    }
+    .gridItem4 {
+      grid-area: gridItem4;
+    }
+    .gridItem5 {
+      grid-area: gridItem5;
+    }
+    .gridItem6 {
+      grid-area: gridItem6;
+    }
+    .gridItem7 {
+      grid-area: gridItem7;
+    }
+    .gridItem8 {
+      grid-area: gridItem8;
+    }
+    .gridItem9 {
+      grid-area: gridItem9;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(auto-fill, -webkit-max-content);
+      grid-template-rows: repeat(auto-fill, minmax(50vh, -webkit-max-content));
+      grid-template-rows: repeat(auto-fill, minmax(30vh, -webkit-max-content));
+      grid-template-rows: repeat(auto-fill, minmax(20vh, 1fr));
+      grid-auto-rows: 20vh;
+      grid-auto-flow: row;
+      grid-template-areas:
+        "gridItem2 gridItem1"
+        "gridItem4 gridItem3"
+        "gridItem6 gridItem5"
+        "gridItem7 gridItem8"
+        "gridItem9 gridItem9";
+    }
+  }
+}

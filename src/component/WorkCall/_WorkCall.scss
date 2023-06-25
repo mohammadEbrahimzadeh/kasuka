@@ -1,0 +1,17 @@
+.WorkCall {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.483), rgba(0, 0, 0, 0.517)),
+    url("/src/component/WorkCall/img/hero-bg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  .btn {
+    border: 2px solid white;
+    font-size: 2.25vw;
+  }
+  h3 {
+    font-size: 4vw;
+  }
+  p {
+    font-size: 3vw;
+  }
+}

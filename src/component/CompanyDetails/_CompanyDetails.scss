@@ -1,0 +1,14 @@
+.CompanyDetails {
+  color: black;
+  .right {
+    h3 {
+      font-size: 3.5vw;
+    }
+    p {
+      font-size: 3vw;
+      text-align: justify;
+      word-wrap: break-word;
+      word-break: break-all;
+    }
+  }
+}

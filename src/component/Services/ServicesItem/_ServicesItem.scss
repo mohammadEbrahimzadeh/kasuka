@@ -1,0 +1,52 @@
+.ServicesItem {
+  &:hover {
+    -webkit-animation-name: example;
+    animation-name: example;
+    -webkit-animation-duration: 1s;
+    animation-duration: 0.5s;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    position: relative;
+
+    @-webkit-keyframes example {
+      0% {
+        margin-bottom: 0;
+      }
+      100% {
+        margin-bottom: 100px;
+      }
+    }
+
+    @keyframes example {
+      from {
+        bottom: 0;
+      }
+      to {
+        bottom: 20px;
+      }
+    }
+  }
+  .GrServices {
+    font-size: 4vw;
+    background-color: goldenrod;
+    color: black;
+  }
+  h3 {
+    font-size: 3.5vw;
+    text-align: center;
+  }
+  p {
+    font-size: 3vw;
+    text-align: right;
+    word-break: break-all;
+  }
+  .Link {
+    text-decoration: none;
+    color: black;
+    &:hover {
+      color: goldenrod;
+    }
+  }
+}

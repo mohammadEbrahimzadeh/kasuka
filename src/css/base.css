@@ -1,0 +1,494 @@
+* {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+body {
+  direction: rtl;
+  max-height: 800px;
+  min-width: 300px;
+  position: relative;
+}
+
+.HamburgerMenu {
+  color: white;
+  width: 50%;
+  top: 0;
+  right: -50%;
+  bottom: 0;
+  z-index: 20;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.455);
+  color: white;
+}
+
+.HamburgerMenu .btnMenu {
+  color: white;
+  font-size: 4vw;
+  border: none;
+}
+
+.HamburgerMenu .btnMenu:hover {
+  color: white;
+  background-color: rgba(255, 255, 255, 0.282);
+}
+
+.open {
+  animation-name: openx;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes openx {
+  0% {
+    right: -50%;
+  }
+  100% {
+    right: 0;
+  }
+}
+
+.close {
+  animation-name: closex;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes closex {
+  0% {
+    right: 0;
+  }
+  100% {
+    right: -50%;
+  }
+}
+
+.divContainerIcon {
+  height: 0;
+  width: 0;
+  position: sticky;
+  top: 3%;
+  margin: 0vw;
+  right: 3%;
+  z-index: 25;
+}
+
+.divContainerIcon .openIcon {
+  font-size: 5vw;
+  color: goldenrod;
+}
+
+.Navbar {
+  height: 15vh;
+  background-color: rgba(0, 0, 0, 0.303);
+  position: -webkit-sticky;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+}
+
+.Navbar .btnNavbar {
+  color: white;
+  font-size: 1.5vw;
+}
+
+.Navbar .btnNavbar:hover {
+  color: gold;
+}
+
+.Navbar .btnStartInNavbar {
+  border: 2px solid rgba(255, 217, 0, 0.579);
+}
+
+.Navbar .btnStartInNavbar:hover {
+  color: black;
+  background-color: gold;
+}
+
+.Content {
+  margin-bottom: 10vw;
+}
+
+.Content h1 {
+  font-size: 4.5vw;
+}
+
+.Content h2 {
+  color: gold;
+  font-size: 4vw;
+}
+
+.Content h4 {
+  font-size: 3vw;
+}
+
+.Items {
+  border: 2px solid rgba(95, 92, 92, 0.455);
+  padding: 1vw;
+}
+
+.Items:hover {
+  background-color: goldenrod;
+  transition: 0.5s;
+}
+
+.Items .AssignmentTurnedInIcon {
+  font-size: 5vw;
+}
+
+.Items h5 {
+  font-size: 3vw;
+  color: white;
+}
+
+.Header {
+  height: 100%;
+  padding: 10.5vw;
+  background: linear-gradient(rgba(0, 0, 0, 0.421), rgba(0, 0, 0, 0.276)), url("/src/component/Header/img/hero-bg.jpg");
+  background-size: cover;
+  color: white;
+}
+
+.CompanyDetails {
+  color: black;
+}
+
+.CompanyDetails .right h3 {
+  font-size: 3.5vw;
+}
+
+.CompanyDetails .right p {
+  font-size: 3vw;
+  text-align: justify;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.Slider .iconPagenaiton {
+  font-size: 2vw;
+}
+
+.Ads .left li .IconLi {
+  font-size: 4vw;
+}
+
+.Ads .left li h3 {
+  font-size: 3.5vw;
+}
+
+.Ads .left li p {
+  font-size: 3vw;
+  text-align: right;
+}
+
+.ServicesItem:hover {
+  animation-name: example;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  position: relative;
+}
+
+@keyframes example {
+  from {
+    bottom: 0;
+  }
+  to {
+    bottom: 20px;
+  }
+}
+
+.ServicesItem .GrServices {
+  font-size: 4vw;
+  background-color: goldenrod;
+  color: black;
+}
+
+.ServicesItem h3 {
+  font-size: 3.5vw;
+  text-align: center;
+}
+
+.ServicesItem p {
+  font-size: 3vw;
+  text-align: right;
+  word-break: break-all;
+}
+
+.ServicesItem .Link {
+  text-decoration: none;
+  color: black;
+}
+
+.ServicesItem .Link:hover {
+  color: goldenrod;
+}
+
+.Services h2 {
+  font-size: 4vw;
+}
+
+.WorkCall {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.483), rgba(0, 0, 0, 0.517)), url("/src/component/WorkCall/img/hero-bg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+}
+
+.WorkCall .btn {
+  border: 2px solid white;
+  font-size: 2.25vw;
+}
+
+.WorkCall h3 {
+  font-size: 4vw;
+}
+
+.WorkCall p {
+  font-size: 3vw;
+}
+
+.WorkSamples h2 {
+  font-size: 4vw;
+}
+
+.WorkSamples ul {
+  border: 2px solid rgba(128, 128, 128, 0.476);
+}
+
+.WorkSamples ul li {
+  font-size: 3.5vw;
+}
+
+.WorkSamples ul li:nth-child(1) {
+  background-color: goldenrod;
+}
+
+.WorkSamples ul li:hover {
+  background-color: goldenrod;
+}
+
+.WorkSamples .gallery {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(2vw, 1fr));
+  grid-template-rows: repeat(auto-fill, minmax(5vw, 1fr));
+  grid-auto-rows: 4vw;
+  gap: 3vw;
+  grid-template-areas: " gridItem1  gridItem5 gridItem8" " gridItem1  gridItem5 gridItem8" " gridItem2  gridItem5 gridItem8" " gridItem2  gridItem6 gridItem8 " " gridItem2  gridItem6 gridItem8 " " gridItem3  gridItem6 gridItem8" " gridItem3  gridItem6 gridItem9 " " gridItem3  gridItem6 gridItem9      " " gridItem4  gridItem6 gridItem9      " " gridItem4  gridItem7 gridItem9   " " gridItem4  gridItem7 gridItem9   " " ...        gridItem7   ...   ";
+  grid-auto-flow: row;
+}
+
+.WorkSamples .gallery .gridItem1 {
+  grid-area: gridItem1;
+}
+
+.WorkSamples .gallery .gridItem2 {
+  grid-area: gridItem2;
+}
+
+.WorkSamples .gallery .gridItem3 {
+  grid-area: gridItem3;
+}
+
+.WorkSamples .gallery .gridItem4 {
+  grid-area: gridItem4;
+}
+
+.WorkSamples .gallery .gridItem5 {
+  grid-area: gridItem5;
+}
+
+.WorkSamples .gallery .gridItem6 {
+  grid-area: gridItem6;
+}
+
+.WorkSamples .gallery .gridItem7 {
+  grid-area: gridItem7;
+}
+
+.WorkSamples .gallery .gridItem8 {
+  grid-area: gridItem8;
+}
+
+.WorkSamples .gallery .gridItem9 {
+  grid-area: gridItem9;
+}
+
+@media only screen and (max-width: 600px) {
+  .WorkSamples .gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(auto-fill, minmax(30vh, -webkit-max-content));
+    grid-template-rows: repeat(auto-fill, minmax(20vh, 1fr));
+    grid-auto-rows: 20vh;
+    grid-auto-flow: row;
+    grid-template-areas: "gridItem2 gridItem1" "gridItem4 gridItem3" "gridItem6 gridItem5" "gridItem7 gridItem8" "gridItem9 gridItem9";
+  }
+}
+
+.Statistics .left h2 {
+  font-size: 4vw;
+  text-align: center;
+}
+
+.Statistics .left p {
+  font-size: 2vw;
+  word-wrap: break-word;
+  text-align: center;
+}
+
+.OwnerShip {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.483), rgba(0, 0, 0, 0.517)), url("/src/component/WorkCall/img/hero-bg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+}
+
+.OwnerShip img {
+  width: 15vw;
+}
+
+.OwnerShip h3 {
+  font-size: 4vw;
+}
+
+.OwnerShip p {
+  font-size: 3.5vw;
+}
+
+.OwnerShip .Pagination {
+  background-color: aquamarine;
+}
+
+.OwnerShip .dd {
+  background-color: brown;
+}
+
+.Teams h2 {
+  font-size: 4vw;
+}
+
+.Teams p {
+  font-size: 2vw;
+  text-align: center;
+  margin-top: 1vw;
+}
+
+.Map h2 {
+  font-size: 4vw;
+}
+
+.Map .mapouter {
+  position: relative;
+  text-align: right;
+  height: 50vh;
+  width: 100%;
+}
+
+.Map .gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 100%;
+  width: 100%;
+}
+
+.Form .right h3 {
+  font-size: 3vw;
+}
+
+.Form .right p {
+  font-size: 2vw;
+}
+
+.Form .right .icon {
+  font-size: 5vw;
+}
+
+.Form .left textarea {
+  resize: none;
+  height: auto;
+}
+
+.Form .left button {
+  background-color: goldenrod;
+  font-size: 2vw;
+}
+
+.Form .left button:hover {
+  background-color: rgba(218, 165, 32, 0.49);
+}
+
+.Form .left input,
+.Form .left textarea {
+  background-color: lightgray;
+  font-size: 2vw;
+}
+
+.Form .left input:focus,
+.Form .left textarea:focus {
+  background-color: #dfdeda;
+}
+
+.Footer {
+  color: white;
+}
+
+.Footer .rightSide p {
+  font-size: 2vw;
+}
+
+.Footer .rightSide li {
+  padding: 1vw;
+  font-size: 2vw;
+  background-color: rgba(255, 255, 255, 0.083);
+}
+
+.Footer .rightSide li:hover {
+  background-color: rgba(255, 255, 255, 0.145);
+}
+
+.Footer .centerSIde h6 {
+  font-size: 2.25vw;
+}
+
+.Footer .centerSIde li {
+  font-size: 1.3vw;
+}
+
+.Footer .leftSid h6 {
+  font-size: 2.25vw;
+}
+
+.Footer .leftSid p {
+  font-size: 2vw;
+}
+
+.Footer .leftSid input {
+  width: 70%;
+  font-size: 1vw;
+}
+
+.Footer .leftSid button {
+  width: 30%;
+  font-size: 1vw;
+  height: 100%;
+  background-color: goldenrod;
+}
+
+.Footer .leftSid button:hover {
+  background-color: rgba(218, 165, 32, 0.627);
+}
+
+.Maker {
+  color: white;
+}
+
+.Maker h4 {
+  font-size: 1.5vw;
+}
+
+.Maker h6 {
+  font-size: 1vw;
+}
+/*# sourceMappingURL=base.css.map */

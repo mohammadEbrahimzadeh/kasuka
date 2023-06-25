@@ -1,0 +1,47 @@
+.Footer {
+  color: white;
+  .rightSide {
+    p {
+      font-size: 2vw;
+    }
+    li {
+      padding: 1vw;
+      font-size: 2vw;
+      background-color: rgba(255, 255, 255, 0.083);
+      &:hover {
+        background-color: rgba(255, 255, 255, 0.145);
+      }
+    }
+  }
+  .centerSIde {
+    h6 {
+      font-size: 2.25vw;
+    }
+    li {
+      font-size: 1.3vw;
+    }
+  }
+  .leftSid {
+    h6 {
+      font-size: 2.25vw;
+    }
+    p {
+      font-size: 2vw;
+    }
+    input {
+      width: 70%;
+      font-size: 1vw;
+    }
+    button {
+      width: 30%;
+
+      font-size: 1vw;
+      height: 100%;
+
+      background-color: goldenrod;
+      &:hover {
+        background-color: rgba(218, 165, 32, 0.627);
+      }
+    }
+  }
+}

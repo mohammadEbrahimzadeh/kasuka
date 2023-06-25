@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/kasuka/static/css/main.d81cbad6.css",
+    "main.js": "/kasuka/static/js/main.48e5a1c4.js",
+    "static/js/787.28cb0dcd.chunk.js": "/kasuka/static/js/787.28cb0dcd.chunk.js",
+    "static/media/hero-bg.jpg": "/kasuka/static/media/hero-bg.fa6c455cbec2a3f793f9.jpg",
+    "static/media/logo.png": "/kasuka/static/media/logo.006f7a2de9bb53304755.png",
+    "static/media/about.jpg": "/kasuka/static/media/about.8498bb5a6bb57ce22b96.jpg",
+    "static/media/portfolio-2.jpg": "/kasuka/static/media/portfolio-2.4a62f4448628b08cfd47.jpg",
+    "static/media/portfolio-7.jpg": "/kasuka/static/media/portfolio-7.db43fe1e5729fdcb80d6.jpg",
+    "static/media/portfolio-3.jpg": "/kasuka/static/media/portfolio-3.2a8eb861c8751b157147.jpg",
+    "static/media/team-2.jpg": "/kasuka/static/media/team-2.b2008acdf74612d89b8f.jpg",
+    "static/media/team-1.jpg": "/kasuka/static/media/team-1.30c859cd9a02bb5dcc9a.jpg",
+    "static/media/team-3.jpg": "/kasuka/static/media/team-3.ca581ae1628e295ec2a0.jpg",
+    "static/media/portfolio-8.jpg": "/kasuka/static/media/portfolio-8.3c46c6c1343ceb2aeb74.jpg",
+    "static/media/team-4.jpg": "/kasuka/static/media/team-4.525dee063b26d6a44d1d.jpg",
+    "static/media/portfolio-1.jpg": "/kasuka/static/media/portfolio-1.f8a4f20b1b6d6ee85702.jpg",
+    "static/media/portfolio-9.jpg": "/kasuka/static/media/portfolio-9.fbfa970774a6b6c830d0.jpg",
+    "static/media/portfolio-6.jpg": "/kasuka/static/media/portfolio-6.84b78cea838c36fac922.jpg",
+    "static/media/portfolio-5.jpg": "/kasuka/static/media/portfolio-5.940ac6c8dea7f45f338f.jpg",
+    "static/media/portfolio-4.jpg": "/kasuka/static/media/portfolio-4.ab6a84ccac895007e9c3.jpg",
+    "static/media/testimonials-3.jpg": "/kasuka/static/media/testimonials-3.bec51ce16f238c7ec7b1.jpg",
+    "index.html": "/kasuka/index.html",
+    "main.d81cbad6.css.map": "/kasuka/static/css/main.d81cbad6.css.map",
+    "main.48e5a1c4.js.map": "/kasuka/static/js/main.48e5a1c4.js.map",
+    "787.28cb0dcd.chunk.js.map": "/kasuka/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d81cbad6.css",
+    "static/js/main.48e5a1c4.js"
+  ]
+}

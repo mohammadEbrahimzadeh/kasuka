@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+body {
+  direction: rtl;
+  max-height: 800px;
+  min-width: 300px;
+  position: relative;
+}
+@import "component/HamburgerMenu/_HamburgerMenu";
+
+@import "component/Header/_header";
+@import "component/CompanyDetails/_CompanyDetails";
+@import "component/Slider/_Slider";
+@import "component/Ads/_Ads";
+@import "component/Services/_Services";
+@import "component/WorkCall/_WorkCall";
+@import "component/WorkSamples/_WorkSamples";
+@import "component/Statistics/_Statistics";
+@import "component/OwnerShip/_OwnerShip";
+@import "component/Teams/_Teams";
+@import "component/Map/_Map";
+@import "component/Form/_Form";
+@import "component/Footer/_Footer";
+@import "component/Maker/_Maker";
